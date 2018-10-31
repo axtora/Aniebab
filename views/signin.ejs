@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/sign.css' />
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'/>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="main">
+    	<div id="main__border">
+    		<div id="main__headr">
+          <div class="rounded-circle">
+              <img src="/images/sign-logo-white.png">
+          </div>
+        </div>
+        <div id="main__content">
+          <form>
+            <div class="form-group">
+              <label for="user_Email">이메일 입력</label>
+              <input type="email" class="form-control" placeholder="이메일 주소"/>
+            </div>
+            <div class="form-group">
+              <label for="user_password">비밀번호 입력</label>
+              <input type="password" class="form-control" placeholder="비밀번호"/>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn w-100">로그인</button>
+            </div>
+          </form>
+          <div class="main__sub">
+              <a href="http://127.0.0.1:3000/signin" class="text-dark"><u>비밀번호 찾기</u></a>
+              <a href="http://127.0.0.1:3000/signup" class="text-dark float-right"><u>회원가입</u></a>
+          </div>
+          <div class="main__social_bar pt-2">
+              <hr>
+              <p class="text-center">SNS로 로그인 하기</p>
+              <div class="main__social_group">
+                <div class="facebook">
+                  <button class="btn btn-outline-primary">Facebook</button>
+                </div>
+                <div class="google">
+                  <button class="btn btn-outline-danger">Google</button>
+                </div>
+                <div class="twitter">
+                  <button class="btn btn-outline-info">Twitter</button>
+                </div>
+              </div>
+          </div>
+        </div>
+    	</div>
+    </div>
+  </body>
+</html>

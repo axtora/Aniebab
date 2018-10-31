@@ -1,0 +1,55 @@
+#main {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	width: auto;
+	height: auto;
+}
+
+#main__border {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	height: 100%;
+}
+
+#main__headr {
+	background-color: rgba(36, 52, 71, 0.9);
+	padding: 10px;
+	text-align: center;
+} 
+
+#main__headr > .rounded-circle > img {
+	width: 50px;
+	height: 50px;
+}
+
+#main__content {
+	padding: 2rem;
+}
+
+.main__social_group {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main__social_group button {
+	width: 120px;
+	height: 60px;
+	margin: 10px;
+}
+
+.main__content {
+	padding-top: 1rem;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.form-group input {
+	font-size: 0.85rem;
+}
+
+.form-group button {
+	color: white;
+	background-color: #394859 !important;
+	border-color: 1px solid #394859 !important;
+}
